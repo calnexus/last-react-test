@@ -25,6 +25,10 @@ const routes = [
     element: <Movie />,
     errorElement: <ErrorPage />,
   },
-]
+  {
+    path: "/bad-route",
+    element: <ErrorPage />,
+  },
+];
 
 export default routes
